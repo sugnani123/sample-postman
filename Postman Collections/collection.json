@@ -85,11 +85,6 @@
         }
       ],
       "id": "36cd4966-15c0-4fb6-b3d0-1423f8f51456"
-    },
-    {
-      "name": "POST",
-      "item": [],
-      "id": "9e6e24e6-89d7-412f-9afa-2c981e46cab2"
     }
   ],
   "event": [
@@ -116,7 +111,7 @@
   ],
   "variable": [
     {
-      "id": "41ebe5b4-8eee-4613-b7c6-4b735fba0a80",
+      "id": "9f58aae8-a8e7-4fcb-844a-ad3e2fccbe18",
       "key": "url",
       "value": "https://reqres.in"
     }
