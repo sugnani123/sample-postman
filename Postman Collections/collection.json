@@ -88,48 +88,7 @@
     },
     {
       "name": "POST",
-      "item": [
-        {
-          "name": "Register-User",
-          "event": [
-            {
-              "listen": "test",
-              "script": {
-                "id": "9b9e7200-f02f-4a3c-a598-c8ea2f6db31d",
-                "exec": [
-                  "pm.test(\"Status code is 200\", function () {\r",
-                  "    pm.response.to.have.status(200);\r",
-                  "});\r",
-                  "pm.test(\"Response time is less than 2000ms\", function () {\r",
-                  "    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
-                  "});"
-                ],
-                "type": "text/javascript"
-              }
-            }
-          ],
-          "id": "0d589205-4cba-4ea1-a556-55b8bafb35ea",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "POST",
-            "header": [
-              {
-                "key": "Content-Type",
-                "value": "application/json",
-                "type": "text"
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"pistol\"\r\n}"
-            },
-            "url": "{{url}}/api/register"
-          },
-          "response": []
-        }
-      ],
+      "item": [],
       "id": "9e6e24e6-89d7-412f-9afa-2c981e46cab2"
     }
   ],
@@ -157,7 +116,7 @@
   ],
   "variable": [
     {
-      "id": "f5c4dc01-58ad-4d5e-9f3d-0c9883fed1ad",
+      "id": "6de3dc59-d0d5-43e0-9660-c9cc87eb255c",
       "key": "url",
       "value": "https://reqres.in"
     }
