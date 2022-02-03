@@ -27,7 +27,7 @@
               }
             }
           ],
-          "_postman_id": "49cd1901-cc82-43ea-bed5-1515a3b53354",
+          "id": "49cd1901-cc82-43ea-bed5-1515a3b53354",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -63,13 +63,18 @@
                 "exec": [
                   "pm.test(\"Status code is 200\", function () {\r",
                   "    pm.response.to.have.status(200);\r",
+                  "});\r",
+                  "\r",
+                  "\r",
+                  "pm.test(\"Response time is less than 2000ms\", function () {\r",
+                  "    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
                   "});"
                 ],
                 "type": "text/javascript"
               }
             }
           ],
-          "_postman_id": "8710f07b-a545-428d-ba71-51207317ceb4",
+          "id": "8710f07b-a545-428d-ba71-51207317ceb4",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -81,7 +86,7 @@
           "response": []
         }
       ],
-      "_postman_id": "36cd4966-15c0-4fb6-b3d0-1423f8f51456"
+      "id": "36cd4966-15c0-4fb6-b3d0-1423f8f51456"
     },
     {
       "name": "POST",
@@ -105,7 +110,7 @@
               }
             }
           ],
-          "_postman_id": "0d589205-4cba-4ea1-a556-55b8bafb35ea",
+          "id": "0d589205-4cba-4ea1-a556-55b8bafb35ea",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -120,17 +125,14 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"pistol\"\r\n}",
-              "options": {
-                "raw": {}
-              }
+              "raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"pistol\"\r\n}"
             },
             "url": "{{url}}/api/register"
           },
           "response": []
         }
       ],
-      "_postman_id": "9e6e24e6-89d7-412f-9afa-2c981e46cab2"
+      "id": "9e6e24e6-89d7-412f-9afa-2c981e46cab2"
     }
   ],
   "event": [
@@ -157,10 +159,9 @@
   ],
   "variable": [
     {
-      "id": "4379d088-fd04-42b2-bfb1-d6464e7b5cd5",
+      "id": "a7cd850c-50bb-4a61-89c1-2a9acb6e2a24",
       "key": "url",
-      "value": "https://reqres.in",
-      "type": "string"
+      "value": "https://reqres.in"
     }
   ]
 }
