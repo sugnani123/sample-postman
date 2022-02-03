@@ -122,7 +122,7 @@
               "mode": "raw",
               "raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"pistol\"\r\n}"
             },
-            "url": null
+            "url": "{{url}}/api/register"
           },
           "response": []
         }
@@ -154,7 +154,7 @@
   ],
   "variable": [
     {
-      "id": "0de9db15-6726-4aa0-91ef-85535c1c47cc",
+      "id": "2d2fb217-ea73-4979-89a9-de14cea5dcfb",
       "key": "url",
       "value": "https://reqres.in"
     }
