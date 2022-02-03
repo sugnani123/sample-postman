@@ -88,7 +88,21 @@
     },
     {
       "name": "Post",
-      "item": [],
+      "item": [
+        {
+          "name": "New Request",
+          "id": "bdddbdb2-a123-456f-b749-63e1c3afd460",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": null
+          },
+          "response": []
+        }
+      ],
       "id": "9f43acff-1681-4102-9e79-df8bcb6c8c6f"
     }
   ],
@@ -116,7 +130,7 @@
   ],
   "variable": [
     {
-      "id": "6af5d53e-e5ef-4672-9d78-843b28ce1720",
+      "id": "3e6faf5b-fb46-4990-8a5c-36a63d983f3e",
       "key": "url",
       "value": "https://reqres.in"
     }
