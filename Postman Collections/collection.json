@@ -85,6 +85,11 @@
         }
       ],
       "id": "36cd4966-15c0-4fb6-b3d0-1423f8f51456"
+    },
+    {
+      "name": "New Folder",
+      "item": [],
+      "id": "9f43acff-1681-4102-9e79-df8bcb6c8c6f"
     }
   ],
   "event": [
@@ -111,7 +116,7 @@
   ],
   "variable": [
     {
-      "id": "9c619c34-475b-4e15-8be9-81e2b4e00060",
+      "id": "132560dd-a0bf-4b4d-9422-5421c335917b",
       "key": "url",
       "value": "https://reqres.in"
     }
