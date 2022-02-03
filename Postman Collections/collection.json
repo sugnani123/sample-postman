@@ -104,6 +104,10 @@
                   "});\r",
                   "pm.test(\"Response time is less than 200ms\", function () {\r",
                   "    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
+                  "});\r",
+                  "\r",
+                  "pm.test(\"Successful POST request\", function () {\r",
+                  "    pm.expect(pm.response.code).to.be.oneOf([201, 202]);\r",
                   "});"
                 ],
                 "type": "text/javascript"
@@ -159,7 +163,7 @@
   ],
   "variable": [
     {
-      "id": "a7cd850c-50bb-4a61-89c1-2a9acb6e2a24",
+      "id": "ef5869f7-d450-4370-b348-08abb761540e",
       "key": "url",
       "value": "https://reqres.in"
     }
