@@ -91,6 +91,20 @@
       "item": [
         {
           "name": "New Request",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "aa67319d-3e1a-4a4d-ba5b-b4624cea6400",
+                "exec": [
+                  "pm.test(\"Status code is 200\", function () {\r",
+                  "    pm.response.to.have.status(200);\r",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
           "id": "bdddbdb2-a123-456f-b749-63e1c3afd460",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
@@ -134,7 +148,7 @@
   ],
   "variable": [
     {
-      "id": "be91e4ef-7350-42b5-876f-65217ecef970",
+      "id": "ada3a41f-707b-427e-afec-b082900085b7",
       "key": "url",
       "value": "https://reqres.in"
     }
