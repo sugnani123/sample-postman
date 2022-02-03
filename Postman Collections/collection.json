@@ -98,6 +98,10 @@
           "request": {
             "method": "GET",
             "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"pistol\"\r\n}"
+            },
             "url": null
           },
           "response": []
@@ -130,7 +134,7 @@
   ],
   "variable": [
     {
-      "id": "6c4e6e3f-fc98-43ce-9a84-2079cea9f597",
+      "id": "be91e4ef-7350-42b5-876f-65217ecef970",
       "key": "url",
       "value": "https://reqres.in"
     }
