@@ -64,8 +64,6 @@
                   "pm.test(\"Status code is 200\", function () {\r",
                   "    pm.response.to.have.status(200);\r",
                   "});\r",
-                  "\r",
-                  "\r",
                   "pm.test(\"Response time is less than 2000ms\", function () {\r",
                   "    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
                   "});"
@@ -159,7 +157,7 @@
   ],
   "variable": [
     {
-      "id": "ee42a528-e2ac-459c-8c86-0d9f0d3f2be8",
+      "id": "f5c4dc01-58ad-4d5e-9f3d-0c9883fed1ad",
       "key": "url",
       "value": "https://reqres.in"
     }
