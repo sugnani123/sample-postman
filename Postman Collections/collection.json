@@ -102,12 +102,8 @@
                   "pm.test(\"Status code is 200\", function () {\r",
                   "    pm.response.to.have.status(200);\r",
                   "});\r",
-                  "pm.test(\"Response time is less than 200ms\", function () {\r",
+                  "pm.test(\"Response time is less than 2000ms\", function () {\r",
                   "    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
-                  "});\r",
-                  "\r",
-                  "pm.test(\"Successful POST request\", function () {\r",
-                  "    pm.expect(pm.response.code).to.be.oneOf([201, 202]);\r",
                   "});"
                 ],
                 "type": "text/javascript"
@@ -163,7 +159,7 @@
   ],
   "variable": [
     {
-      "id": "5bbf7301-6ceb-4d96-a424-f7d6c977d031",
+      "id": "ee42a528-e2ac-459c-8c86-0d9f0d3f2be8",
       "key": "url",
       "value": "https://reqres.in"
     }
