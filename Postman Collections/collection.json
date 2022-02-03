@@ -111,7 +111,13 @@
           },
           "request": {
             "method": "GET",
-            "header": [],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"pistol\"\r\n}"
@@ -148,7 +154,7 @@
   ],
   "variable": [
     {
-      "id": "ada3a41f-707b-427e-afec-b082900085b7",
+      "id": "0de9db15-6726-4aa0-91ef-85535c1c47cc",
       "key": "url",
       "value": "https://reqres.in"
     }
